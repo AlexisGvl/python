@@ -1,3 +1,4 @@
+import random
 # code 4.1
 # la fonction `random.randint()` permet de tirer un nombre entier au hasard
 # affectaction d'un nombre entier entre 0 et 99 à la variable number
