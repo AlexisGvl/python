@@ -5,5 +5,14 @@
 # réponse 5.1
 
 def multiplication(a: float, b: float) -> float:
-    return a * b
+   """Cette opération sert à multiplier 2 variables entre elles
+a représente la première variable
+b représente la deuxième variable
+return a * b est le résultat de cette opération"""
+   
+   
+   return a * b
 
+
+
+help(multiplication)
