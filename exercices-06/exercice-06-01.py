@@ -3,3 +3,4 @@
 
 # réponse 6.1
 
+my_list=[1,2.5,'foo',True]

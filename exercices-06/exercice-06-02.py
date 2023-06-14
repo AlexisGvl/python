@@ -7,3 +7,5 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.2
 
+print(my_list[2])
+

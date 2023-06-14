@@ -7,3 +7,10 @@ my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.7
 
+bar=my_list.pop(1)
+lorem=my_list.pop(2)
+my_list.insert(1,lorem)
+my_list.insert(3,bar)
+
+print(my_list)
+
