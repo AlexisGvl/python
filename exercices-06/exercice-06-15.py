@@ -9,3 +9,17 @@ my_list = ['Lorem', 'ipsum', 'dolor', 'sit', 'amet', 'consectetur', 'adipiscing'
 
 # réponse 6.15
 
+longueur_max = 0
+index_max = 0
+valeur_max = ""
+
+for index, valeur in enumerate(my_list):
+    longueur = len(valeur)
+    if longueur > longueur_max:
+        longueur_max = longueur
+        index_max = index
+        valeur_max = valeur
+
+print(index_max)
+print(valeur_max)
+print(longueur_max)

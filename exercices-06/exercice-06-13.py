@@ -7,3 +7,11 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.13
 
+resultat = []
+
+for valeur in my_list:
+    resultat.append(valeur * 100)
+
+my_list=resultat
+
+print(my_list)
