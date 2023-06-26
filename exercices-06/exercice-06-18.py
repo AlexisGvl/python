@@ -17,3 +17,19 @@ print(matrix)
 
 # réponse 6.18
 
+import random
+
+
+
+for row_index, row in enumerate(matrix):
+    for col_index, value in enumerate(row):
+        if value <= 50:
+            print("Valeur :", value)
+            print("Ligne :", row_index + 1)
+            print("Colonne :", col_index + 1)
+            print("-----------")
+
+           
+
+
+

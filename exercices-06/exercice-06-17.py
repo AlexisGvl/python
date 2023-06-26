@@ -17,3 +17,9 @@ print(matrix)
 
 # réponse 6.17
 
+
+for i in range(size):
+    for j in range(size):
+        if i==2 and j==3:
+            value = matrix[i][j]
+            print(value)

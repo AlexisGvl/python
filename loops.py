@@ -61,9 +61,45 @@ for i in range(1, 11):
     accumulateur += i
     print(f"{i = }")
     print(f"{accumulateur = }")
-    print()
-
+    
+print()
 print(f"{accumulateur = }")
+
+# liste 2D
+players = [
+    [42000, 46400, 32103],
+    [16700, 44667, 57987],
+]
+
+line = 0
+col = 0
+#print(players[line][col])
+
+for line_index in range(0, len(players)):
+    line = players[line_index]
+
+    for col_index in range(0, len(line)):
+        score = line[col_index]
+
+        print(score)
+
+# utilisier la valeur précédente dans une boucle
+numbers = [123, 42, 1000, 3.14]
+
+# au premier tour, il n'y a pas de valeur précédente 
+previous = None
+
+for number in numbers:
+    #traitement des données
+    # on affiche la valeur du tour actuel
+    print(number)
+    # on affiche la valeur du tour précédent
+    print(previous)
+
+    # préparation du tour suivant
+    # on sauvegarde la valeur du tour actuel pour le tour suivant
+    # cette valeur deviandra la valeur du tour précédent
+    previous = number
 
 
 
