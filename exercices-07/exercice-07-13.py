@@ -3,3 +3,5 @@
 
 # réponse 7.13
 
+for nombre in range(2, 100, 2):
+    print(nombre)

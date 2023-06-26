@@ -6,3 +6,10 @@ import random
 
 # réponse 7.18
 
+import random
+
+r = random.randint(1, 100)
+while r != 100:
+    print(r)
+    r = random.randint(1, 100)
+print(100)

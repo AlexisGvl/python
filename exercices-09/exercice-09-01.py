@@ -8,3 +8,11 @@
 
 # réponse 9.1
 
+my_dict = {
+    'entier': 3,
+    'flottant': 3.14,
+    'chaine': 'Foo',
+    'booleen': False
+}
+
+print(my_dict)

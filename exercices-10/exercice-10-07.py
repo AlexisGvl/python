@@ -13,3 +13,35 @@
 
 # réponse 10.7
 
+def compute_tax(price: float, tax_type: int):
+    if tax_type == 1 :
+        montant_taxe = price * 0.021
+    elif tax_type == 2 :
+        montant_taxe = price * 0.055
+    elif tax_type == 3 :
+        montant_taxe = price * 0.1
+    elif tax_type == 4 : 
+        montant_taxe = price * 0.2
+    else: 
+        return price
+    return price + montant_taxe
+
+price = 100
+
+tax_type = 1
+final_price = compute_tax(price, tax_type)
+print(final_price)
+
+tax_type = 2
+final_price = compute_tax(price, tax_type)
+print(final_price)
+
+tax_type = 3
+final_price = compute_tax(price, tax_type)
+print(final_price)
+
+tax_type = 4
+final_price = compute_tax(price, tax_type)
+print(final_price)
+
+

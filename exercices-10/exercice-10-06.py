@@ -21,3 +21,18 @@
 
 # réponse 10.6
 
+def meters_to_miles(a, b) :
+    return a / b
+
+def miles_to_meters(a, b) :
+    return a * b 
+
+b = 1609.344
+
+result_1 = meters_to_miles(1000, b)
+print(result_1)
+
+result_2 = miles_to_meters (10, b)
+print(result_2)
+
+

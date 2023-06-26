@@ -9,3 +9,13 @@
 
 # réponse 10.5
 
+def compare(a: float, b:float) -> int:
+    if a > b :
+        return 1
+    elif a < b : 
+        return -1
+    else :
+        return 0
+
+result = compare(6.28 , 3.14)
+print(result)

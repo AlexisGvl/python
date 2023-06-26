@@ -8,3 +8,9 @@
 
 # réponse 10.2
 
+def my_diff(a: int, b: int) ->int:
+    return a - b
+a=22
+b=3
+result = my_diff(a,b)
+print(result)

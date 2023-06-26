@@ -8,3 +8,11 @@
 
 # réponse 9.2
 
+my_dict = {
+    True: 3,
+    False: 3.14,
+    20: 'Foo',
+    'booleen': False
+}
+
+print(my_dict)

@@ -15,3 +15,6 @@ my_dict = {
 
 # réponse 9.9
 
+for key in my_dict:
+    print(f"{key = }")
+    print(f"value = {my_dict[key]}")

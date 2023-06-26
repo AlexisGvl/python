@@ -3,3 +3,6 @@
 
 # réponse 7.16
 
+for number in range(100):
+    puissance = number ** 2
+    print(puissance)

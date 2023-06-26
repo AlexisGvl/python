@@ -3,3 +3,6 @@
 
 # réponse 7.17
 
+for nombre in range(101):
+    puissance = nombre ** 3
+    print(puissance)
